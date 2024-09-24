@@ -22,11 +22,11 @@ const Navbar: React.FC = () => {
             if (logo.length) {
                 if (udHeader?.classList.contains("sticky")) {
                     logo.forEach((el) => {
-                        el.src = "/assets/images/logo/logo.svg";
+                        el.src = "/assets/images/logo/logo.png";
                     });
                 } else {
                     logo.forEach((el) => {
-                        el.src = "/assets/images/logo/logo-white.svg";
+                        el.src = "/assets/images/logo/logo-3.png";
                     });
                 }
             }
@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
             if (document.documentElement.classList.contains("dark")) {
                 if (logo.length && udHeader?.classList.contains("sticky")) {
                     logo.forEach((el) => {
-                        el.src = "/assets/images/logo/logo-white.svg";
+                        el.src = "/assets/images/logo/logo-3.png";
                     });
                 }
             }
@@ -114,7 +114,7 @@ const Navbar: React.FC = () => {
                     {/* Logo */}
                     <div className="w-60 max-w-full px-4">
                         <a href="/" className="navbar-logo block w-full py-5">
-                            <img src="/assets/images/logo/logo-white.svg" alt="logo" className="header-logo w-full" />
+                            <img src="/assets/images/logo/logo-3.png" alt="logo-3" className="header-logo w-32" />
                         </a>
                     </div>
 

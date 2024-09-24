@@ -3,13 +3,13 @@ import React from 'react';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]" data-wow-delay=".15s">
+        <footer className="wow fadeInUp relative z-10 bg-secondary pt-20 lg:pt-[100px]" data-wow-delay=".15s">
             <div className="container">
                 <div className="flex flex-wrap -mx-4">
                     <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
                         <div className="w-full mb-10">
                             <a href="" className="mb-6 inline-block max-w-[160px]">
-                                <img src="/assets/images/logo/logo-white.svg" alt="logo" className="max-w-full"/>
+                                <img src="/assets/images/logo/logo-2.png" alt="logo" className="max-w-full"/>
                             </a>
                             <p className="mb-8 max-w-[270px] text-base text-gray-7">
                                 We create digital experiences for brands and companies by using
@@ -213,9 +213,9 @@ const Footer: React.FC = () => {
             </div>
 
             <div>
-      <span className="absolute left-0 top-0 z-[-1]">
-        <img src="/assets/images/footer/shape-1.svg" alt=""/>
-      </span>
+      {/*<span className="absolute left-0 top-0 z-[-1]">*/}
+      {/*  <img src="/assets/images/footer/shape-1.svg" alt=""/>*/}
+      {/*</span>*/}
 
                 <span className="absolute bottom-0 right-0 z-[-1]">
         <img src="/assets/images/footer/shape-3.svg" alt=""/>

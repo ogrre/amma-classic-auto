@@ -29,6 +29,9 @@ const config: Config = {
       padding: "16px",
     },
     extend: {
+      backgroundImage: {
+        'quote-background': "url('/assets/images/quote/quote-background.png')",
+      },
       colors: {
         black: "#212b36",
         "dark-700": "#090e34b3",
@@ -42,14 +45,15 @@ const config: Config = {
           7: "#D1D5DB",
           8: "#E5E7EB",
         },
-        primary: "#484761",
+        primary: "#dc6a00",
         "blue-dark": "#1B44C8",
-        secondary: "#dc6a00",
+        secondary: "#484761",
         "body-color": "#637381",
         "body-secondary": "#8899A8",
         warning: "#FBBF24",
         stroke: "#DFE4EA",
-        "gray-1": "#F9FAFB",
+        "gray": "#E5E5E5",
+        "green": "#266530",
         "gray-2": "#F3F4F6",
         "gray-7": "#CED4DA",
       },
