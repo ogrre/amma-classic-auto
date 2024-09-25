@@ -7,6 +7,24 @@
  *
  * Copyright (c) 2019 Daniel Eden
  */
+@keyframes fromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.hero-title {
+  animation: fromBottom 1s ease-out forwards;
+}
+
+.animate-from-bottom {
+  opacity: 1;
+}
 
 @-webkit-keyframes fadeIn {
   from {

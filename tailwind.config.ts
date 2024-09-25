@@ -29,8 +29,11 @@ const config: Config = {
       padding: "16px",
     },
     extend: {
+      fontFamily: {
+        dash: ['dash-horizon', 'sans-serif'],
+      },
       backgroundImage: {
-        'quote-background': "url('/assets/images/quote/quote-background.png')",
+        'quote-background': "url('/assets/images/contact/contact-background.png')",
         'hero-background': "url('/assets/images/hero/hero-background.png')",
       },
       colors: {
