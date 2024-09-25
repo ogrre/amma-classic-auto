@@ -31,9 +31,12 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'quote-background': "url('/assets/images/quote/quote-background.png')",
+        'hero-background': "url('/assets/images/hero/hero-background.png')",
       },
       colors: {
-        black: "#212b36",
+        black: "#191411",
+        "black-30": "#20170f",
+        "black-10" : "#281910",
         "dark-700": "#090e34b3",
         dark: {
           DEFAULT: "#111928",

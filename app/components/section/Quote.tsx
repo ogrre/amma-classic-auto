@@ -2,7 +2,7 @@ import React from 'react';
 
 const Quote: React.FC = () => {
   return (
-      <section className="relative overflow-hidden py-20 lg:py-[115px] bg-quote-background bg-cover bg-center bg-no-repeat">
+      <section className="relative overflow-hidden py-20 lg:py-[115px] bg-secondary">
           <div className="container mx-auto">
               <div className="relative overflow-hidden">
                   <div className="-mx-4 flex flex-wrap items-stretch">

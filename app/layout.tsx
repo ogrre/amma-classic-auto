@@ -55,7 +55,7 @@ export default function RootLayout({children}: {
             {/*<link rel="stylesheet" href="/assets/css/tailwind.css"/>*/}
         </head>
 
-        <body>
+        <body className="bg-gradient-to-r from-black-10 from-5% via-black-30 via-10% to-black to-20%">
         <Navbar/>
         <main>{children}</main>
         <Footer/>
