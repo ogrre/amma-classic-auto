@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog: React.FC = () => {
     return (
-        <section className="bg-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
+        <section id="blog" className="bg-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
             <div className="container mx-auto">
                 <div className="-mx-4 flex flex-wrap justify-center">
                     <div className="w-full px-4">

@@ -8,10 +8,10 @@ const About: React.FC = () => {
                     <div className="-mx-4 flex flex-wrap items-center">
                         <div className="w-full px-4 lg:w-1/2">
                             <div className="mb-12 max-w-[540px] lg:mb-0">
-                                <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
+                                <h2 className="mb-5 text-3xl font-bold leading-tight text-dark sm:text-[40px] sm:leading-[1.2]">
                                     MARTIN AURICK
                                 </h2>
-                                <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
+                                <p className="mb-10 text-base leading-relaxed text-body-color">
                                     Depuis toujours passionné de mécanique, exerçant depuis 20 ans, 15 ans professionnel
                                     en concession, en constante évolution tant sur le plan technologique
                                     que sur ma carrière.

@@ -30,14 +30,16 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        dash: ['dash-horizon', 'sans-serif'],
+        'rock-salt': ['"Rock Salt"', 'cursive'],
+        'beau-rivage': ['"Beau Rivage"', 'cursive'],
       },
       backgroundImage: {
         'quote-background': "url('/assets/images/contact/contact-background.png')",
         'hero-background': "url('/assets/images/hero/hero-background.png')",
       },
       colors: {
-        black: "#191411",
+        black: "#1D1311",
+        // black: "#191411",
         "black-30": "#20170f",
         "black-10" : "#281910",
         "dark-700": "#090e34b3",

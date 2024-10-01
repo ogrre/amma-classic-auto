@@ -1,20 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer  base {
+    html {
+        scroll-behavior: smooth;
+    }
   body {
     font-family: "Inter", sans-serif;
   }
-}
-
-@font-face {
-  font-family: 'dash-horizon';
-  src: url('/public/assets/fonts/dash-horizon/Dash-Horizon-Demo.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
 }
 
 .sticky {

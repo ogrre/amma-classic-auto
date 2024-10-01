@@ -11,15 +11,15 @@ const Contact: React.FC = () => {
                         <div className="ud-contact-content-wrapper">
                             <div className="ud-contact-title mb-12 lg:mb-[150px]">
                                 <span className="mb-6 block text-base font-medium text-white">
-                                    CONTACTEZ-NOUS
+                                    CONTACTEZ-MOI
                                 </span>
                                 <h2 className="max-w-[260px] text-[35px] font-semibold leading-[1.14] text-white">
                                     Parlons de votre besoin.
                                 </h2>
                             </div>
-                            <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
+                            <div className="mb-12 flex flex-wrap justify-between md:mb-0">
                                 <div className="mb-8 flex w-[330px] max-w-full">
-                                    <div className="mr-6 text-[32px] text-primary">
+                                    <div className="mr-6 text-[32px] text-white lg:text-primary">
                                         <svg width="29"
                                             height="35"
                                             viewBox="0 0 29 35"
@@ -29,10 +29,10 @@ const Contact: React.FC = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h5 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
+                                        <h5 className="mb-[18px] text-lg font-semibold text-white lg:text-dark dark:text-white">
                                             Mon Adresse
                                         </h5>
-                                        <p className="text-base text-body-color dark:text-dark-6">
+                                        <p className="text-base text-white lg:text-body-color dark:text-white">
                                             113 rue de l'Avenir,
                                             <br/>
                                             59890 Quesnoy-sur-Deûle
@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
                                     </div>
                                 </div>
                                 <div className="mb-8 flex w-[330px] max-w-full">
-                                    <div className="mr-6 text-[32px] text-primary">
+                                    <div className="mr-6 text-[32px] text-white lg:text-primary">
                                         <svg width="34"
                                             height="25"
                                             viewBox="0 0 34 25"
@@ -49,13 +49,13 @@ const Contact: React.FC = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h5 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
+                                        <h5 className="mb-[18px] text-lg font-semibold text-white lg:text-dark dark:text-white">
                                             Comment puis-je vous aider ?
                                         </h5>
-                                        <p className="text-base text-body-color dark:text-dark-6">
+                                        <p className="text-base text-white lg:text-body-color dark:text-white">
                                             martin.aurick@gmail.com
                                         </p>
-                                        <p className="mt-1 text-base text-body-color dark:text-dark-6">
+                                        <p className="mt-1 text-base text-white lg:text-body-color dark:text-white">
                                             contact@ammaclassicauto.com
                                         </p>
                                     </div>
@@ -65,7 +65,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
                         <div
-                            className="wow fadeInUp rounded-lg bg-white px-8 py-10 shadow-testimonial dark:bg-dark-2 dark:shadow-none sm:px-10 sm:py-12 md:p-[60px] lg:p-10 lg:px-10 lg:py-12 2xl:p-[60px]"
+                            className="wow fadeInUp rounded-lg bg-white px-8 py-10 shadow-testimonial dark:bg-secondary sm:px-10 sm:py-12 md:p-[60px] lg:p-10 lg:px-10 lg:py-12 2xl:p-[60px]"
                             data-wow-delay=".2s">
                             <h3 className="mb-8 text-2xl font-semibold text-dark dark:text-white md:text-[28px] md:leading-[1.42]">
                                 Envoyez-nous un message
@@ -74,46 +74,46 @@ const Contact: React.FC = () => {
                                 <div className="mb-[22px]">
                                     <label
                                         htmlFor="fullName"
-                                        className="mb-4 block text-sm text-body-color dark:text-dark-6">
+                                        className="mb-4 block text-sm text-body-color dark:text-white">
                                         Nom complet*
                                     </label>
                                     <input
                                         type="text"
                                         name="fullName"
                                         placeholder="Adam Gelius"
-                                        className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"/>
+                                        className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"/>
                                 </div>
                                 <div className="mb-[22px]">
                                     <label
                                         htmlFor="email"
-                                        className="mb-4 block text-sm text-body-color dark:text-dark-6">
+                                        className="mb-4 block text-sm text-body-color dark:text-white">
                                         Email*
                                     </label>
                                     <input
                                         type="email"
                                         name="email"
                                         placeholder="example@votremail.com"
-                                        className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"/>
+                                        className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"/>
                                 </div>
                                 <div className="mb-[22px]">
                                     <label htmlFor="phone"
-                                        className="mb-4 block text-sm text-body-color dark:text-dark-6">
+                                        className="mb-4 block text-sm text-body-color dark:text-white">
                                         Téléphone*
                                     </label>
                                     <input
                                         type="text"
                                         name="phone"
                                         placeholder="+33 6 12 34 56 78"
-                                        className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"/>
+                                        className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"/>
                                 </div>
                                 <div className="mb-[30px]">
                                     <label htmlFor="message"
-                                        className="mb-4 block text-sm text-body-color dark:text-dark-6">
+                                        className="mb-4 block text-sm text-body-color dark:text-white">
                                         Message*
                                     </label>
                                     <textarea name="message"
                                         placeholder="Tapez votre message ici"
-                                        className="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"></textarea>
+                                        className="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"></textarea>
                                 </div>
                                 <div className="mb-0">
                                     <button type="submit"
